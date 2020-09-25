@@ -1,4 +1,4 @@
-FROM centos:latest
+FROM centos:centos8
 
 #Cleanup for compact
 RUN yum -y install systemd; yum clean all
